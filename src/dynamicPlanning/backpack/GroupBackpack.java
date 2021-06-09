@@ -100,3 +100,26 @@ public class GroupBackpack {
     }
 
 }
+
+/*
+* 输出结果为：
+* ==========groupBackpack : loopIFirst = true==========
+[0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 3, 3, 3, 3]
+[0, 2, 2, 3, 5, 5, 5]
+[0, 2, 5, 7, 10, 12, 12]
+[0, 2, 5, 7, 10, 12, 12]
+
+==========groupBackpack : loopIFirst = false==========
+[0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 3, 3, 3, 3]
+[0, 2, 2, 3, 5, 5, 5]
+[0, 2, 5, 7, 10, 12, 12]
+[0, 2, 5, 7, 10, 12, 12]
+
+==========groupBackpackOptimize : loopIFirst = true ==========
+[0, 2, 5, 7, 10, 12, 15]
+
+==========groupBackpackOptimize : loopIFirst = false ==========
+[0, 2, 5, 7, 10, 12, 12]
+*/
